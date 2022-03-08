@@ -1,0 +1,35 @@
+.listItem
+{
+	box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+	background-color: #3da4fd;
+	border-radius: 4px;
+	color: #ffffff;
+	display: block;
+	margin-bottom: 10px;
+	padding: 10px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	position: relative;
+}
+
+.listItem > span
+{
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	color: #000000;
+	display: inline-block;
+	font-size: 11px;
+	padding: 5px;
+	position: absolute;
+	top: 14px;
+}
+
+.listItem > span:nth-child(1)
+{
+	right: 4px;
+}
+
+.listItem > span:nth-child(2)
+{
+	right: 60px;
+}
